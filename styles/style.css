@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+                      /* shared style  */
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-paragraph{
+
+}
+.primary-btn{
+    display: inline-flex;
+   padding: 10px 24px;
+   gap: 8px;
+   border-radius: 41px;
+   background-color: #E02C6D;
+}
+                                 /* header styles  */
+header{
+    padding: 80px 150px;
+    /* border: 2px solid salmon; */
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav h4{
+    font-size: 1.5rem;
+    color: #3A3A3A;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+    list-style: none; 
+}
+nav ul a{
+   text-decoration: none;
+   margin-right: 50px;
+   color: #3A3A3A;
+   font-weight: 600;
+}
+.fa-solid{
+    margin-right: 50px;
+}
+.header-container{
+    display: flex;
+    padding: 50px 165px 100px 0px;
+    /* border: 2px solid teal; */
+    gap: 450px;
+}
+.header-content{
+    margin-top: 140px;
+}
+.header-title{
+    width: 600px;
+    height: 133px;
+    color: #3A3A3A;
+    font-size: 3.25rem;
+}
+.header-description{
+    width: 505px;
+    height: 60.9px;
+    color: #3A3A3A;
+    color: #3A3A3A;
+    font-weight: 600;
+    margin-top: 16px;
+}
+.header-image{
+    /* border: 2px solid thistle; */
+  margin-top: 50px;
+    width: 100%;
+    /* height: 100%; */
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+}
